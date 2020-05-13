@@ -8,7 +8,7 @@ const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
   const x = random.int(0, 54);
   const y = random.int(0, 6);
-  const DATE = moment();
+  const DATE = moment().format();
   // .subtract(1, "y")
   // .add(1, "d")
   // .add(x, "w")
