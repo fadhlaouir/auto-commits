@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/fadhlaouir/github-bot#readme",
   "dependencies": {
-    "jsonfile": "^6.0.1",
+    "jsonfile": "^6.1.0",
     "moment": "^2.25.1",
     "random": "^2.2.0",
     "simple-git": "^2.3.0"
