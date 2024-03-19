@@ -7,16 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "bin": {
+    "auto-commit": "./index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fadhlaouir/github-bot.git"
+    "url": "git+https://github.com/fadhlaouir/github-bot-auto-commit.git"
   },
   "author": "fadhlaouir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fadhlaouir/github-bot/issues"
+    "url": "https://github.com/fadhlaouir/github-bot-auto-commit/issues"
   },
-  "homepage": "https://github.com/fadhlaouir/github-bot#readme",
+  "homepage": "https://github.com/fadhlaouir/github-bot-auto-commit#readme",
   "dependencies": {
     "jsonfile": "^6.1.0",
     "moment": "^2.25.1",
