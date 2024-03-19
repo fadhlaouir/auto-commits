@@ -4,7 +4,13 @@ A commit a day keeps the bugs away! But with GitHub Bot Auto Commit, we'll be do
 
 ## Description
 
-GitHub Bot Auto Commit is a Node.js script that generates and pushes commits to a GitHub repository automatically. It utilizes random commit dates within the past year to simulate regular activity on the repository.
+GitHub Bot Auto Commit is a Node.js tool that automates the process of generating and committing random changes to a Git repository. This can be useful for testing, creating activity on a GitHub profile, or simply for fun.
+
+## Features
+
+- **Automated Commit Generation**: Generates a specified number of random commits with random changes to the repository.
+- **Flexible Configuration**: Allows customization of the number of commits and the frequency of changes.
+- **Easy Setup**: Simple setup process with npm installation or npx usage.
 
 ## Installation
 
