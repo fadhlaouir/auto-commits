@@ -47,17 +47,18 @@ const makeCommits = async () => {
 
     // Add changes to Git staging area
     showLoading("➕ Adding changes to staging area");
-    await simpleGit().add(".");
+    const git = simpleGit();
+    await git.add(".");
     console.log("\n✔️ Changes added to staging area");
 
     // Commit changes to the repository
     showLoading("📝 Committing changes to the repository");
-    await simpleGit().commit(commits.map((commit) => commit.date));
+    await git.commit(commits.map((commit) => commit.date));
     console.log("\n✔️ Changes committed to the repository");
 
     // Push changes to the remote repository (main branch)
     showLoading("🚀 Pushing changes to remote repository");
-    await simpleGit().push(BRANCH_NAME);
+    await git.push(BRANCH_NAME);
     console.log("\n✔️ Changes pushed to remote repository");
 
     console.log("✅ All operations completed successfully!");
