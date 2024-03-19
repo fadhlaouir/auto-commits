@@ -11,30 +11,42 @@ GitHub Bot Auto Commit is a Node.js script that generates and pushes commits to 
 Ensure you have Node.js installed on your system. You can install this package globally using npm:
 
 ```bash
-npm install -g create-github-bot-auto-commit
+npm install -g github-bot-auto-commit
 ```
 
 Alternatively, you can use npx to run the script without installing it globally:
 
 ```bash
-npx create-github-bot-auto-commit
+npx github-bot-auto-commit
 ```
+
+## Usage
+
+Once installed, you can simply run the following command in your terminal:
+
+```bash
+github-bot-auto-commit
+```
+
+This command will start the script, which will generate commits and push them to your specified GitHub repository.
 
 ## Configuration
 
 Before running the script, you need to configure it with your GitHub repository information:
 
-1. **Navigate**: Navigate to the project directory in your terminal.
+1. **Clone**: Clone this repository to your local machine.
 
-2. **Install Dependencies**: Install dependencies using npm:
+2. **Navigate**: Navigate to the project directory in your terminal.
+
+3. **Install Dependencies**: Install dependencies using npm:
 
    ```bash
    npm install
    ```
 
-3. **Configure**: Update the `FILE_PATH`, `TOTAL_COMMITS`, and `BRANCH_NAME` constants in `index.js` according to your preferences.
+4. **Configure**: Update the `FILE_PATH`, `TOTAL_COMMITS`, and `BRANCH_NAME` constants in `index.js` according to your preferences.
 
-4. **Run**: Run the script by using npm:
+5. **Run**: Run the script by using npm:
 
    ```bash
    npm start
@@ -50,7 +62,7 @@ You can customize the behavior of the script by modifying the constants in the `
 
 ## Feedback
 
-If you encounter any issues or have suggestions for improvements, please feel free to open an issue [here](https://github.com/fadhlaouir/create-github-bot-auto-commit/issues).
+If you encounter any issues or have suggestions for improvements, please feel free to open an issue [here](https://github.com/fadhlaouir/github-bot-auto-commit/issues).
 
 ## License
 
