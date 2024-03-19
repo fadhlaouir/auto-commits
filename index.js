@@ -47,7 +47,7 @@ const makeCommits = async () => {
 
     // Add changes to Git staging area
     showLoading("➕ Adding changes to staging area");
-    await simpleGit().add("."); // Use git add . to add all changes
+    await simpleGit().add(".");
     console.log("\n✔️ Changes added to staging area");
 
     // Commit changes to the repository
