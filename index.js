@@ -5,7 +5,7 @@ const random = require("random");
 
 const FILE_PATH = "./data.json";
 const TOTAL_COMMITS = 200;
-const BRANCH_NAME = "main"; // Specify the branch name
+const BRANCH_NAME = "master"; // Specify the branch name
 
 // Function to display loading message
 const showLoading = (message) => {

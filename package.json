@@ -1,6 +1,7 @@
 {
   "name": "github-bot-auto-commit",
   "version": "1.0.0",
+  "author": "@Raed Fadhlaoui <raed.fadhlaoui@hotmail.com>",
   "description": "A commit a day keeps the bugs away! But we’ll be doing 100 commits a day.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/fadhlaouir/github-bot-auto-commit.git"
   },
-  "author": "fadhlaouir",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fadhlaouir/github-bot-auto-commit/issues"
