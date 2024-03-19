@@ -58,7 +58,7 @@ const makeCommits = async () => {
 
     // Push changes to the remote repository (main branch)
     showLoading("🚀 Pushing changes to remote repository");
-    await git.push("origin/", BRANCH_NAME);
+    await git.push(BRANCH_NAME);
     console.log("\n✔️ Changes pushed to remote repository");
 
     console.log("✅ All operations completed successfully!");
