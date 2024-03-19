@@ -1,5 +1,5 @@
 {
-  "name": "github-bot",
+  "name": "github-bot-auto-commit",
   "version": "1.0.0",
   "description": "A commit a day keeps the bugs away! But we’ll be doing 100 commits a day.",
   "main": "index.js",
@@ -22,5 +22,6 @@
     "moment": "^2.25.1",
     "random": "^2.2.0",
     "simple-git": "^2.3.0"
-  }
+  },
+  "readme": "README.md"
 }
