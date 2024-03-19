@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/fadhlaouir/create-github-bot-auto-commit#readme",
   "dependencies": {
+    "inquirer": "^9.2.16",
     "jsonfile": "^6.1.0",
     "moment": "^2.25.1",
     "random": "^2.2.0",
