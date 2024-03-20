@@ -1,0 +1,31 @@
+{
+  "name": "create-github-bot-auto-commit",
+  "version": "1.1.0",
+  "author": "@Raed Fadhlaoui <raed.fadhlaoui@hotmail.com>",
+  "description": "CLI tool for creating a GitHub bot that makes auto commits to a repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "auto-commit": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhlaouir/create-github-bot-auto-commit.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadhlaouir/create-github-bot-auto-commit/issues"
+  },
+  "homepage": "https://github.com/fadhlaouir/create-github-bot-auto-commit#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.25.1",
+    "random": "^2.2.0",
+    "simple-git": "^2.3.0"
+  },
+  "readme": "README.md"
+}
