@@ -2,7 +2,7 @@
     "name": "create-github-bot-auto-commit",
     "version": "1.10.0",
     "author": "@Raed Fadhlaoui <raed.fadhlaoui@hotmail.com>",
-    "description": "CLI tool for bootstrapping Express.js projects with predefined templates",
+    "description": "CLI tool for creating a new project that will be used as a GitHub bot to auto commit and push changes to a repository.",
     "license": "MIT",
     "main": "lib/cli.js",
     "bin": {
